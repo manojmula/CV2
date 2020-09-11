@@ -1,46 +1,43 @@
-
 /*This line is all dedicated to the first part of the webpage that is the profile picture and name
 but is considered as navbar when naming the classes*/
-body{
+body {
   margin: 0px;
 }
-.navbar
-{
+
+.navbar {
   background-color: #848ccf;
   display: block;
   padding: 7rem;
   text-align: center;
   font-family: 'Dancing Script', cursive;
 }
-.navbar h1
-{
+
+.navbar h1 {
   font-size: 5rem;
   color: #25319c;
   text-shadow: 0.1rem 0.1rem 0.1rem grey;
 }
-.navbar p{
+
+.navbar p {
   font-family: 'Source Code Pro', monospace;
   font-size: 1.5rem;
+}
 
+.navbar p .web {
+  color: #dc322f;
 }
-.navbar p .web
-{
-  color:#dc322f;
+
+.navbar p .developer {
+  color: #073642;
 }
-.navbar p .developer
-{
-  color:#073642	;
+
+.navbar p .programmer {
+  color: #eee8d5;
 }
-.navbar p .programmer
-{
-  color:#eee8d5	;
-}
-.navbar img
-{
+
+.navbar img {
   border-radius: 100%;
 }
-
-
 
 /*********************************************************************************************************/
 /**
@@ -48,76 +45,72 @@ Here work experience is introduced
 
 
 ***/
-
-.experience
-{
-  background-color:#93b5e1;
+.experience {
+  background-color: #93b5e1;
   text-align: center;
   padding: 7rem;
 }
-.experience h3
-{
-  margin:0px;
+
+.experience h3 {
+  margin: 0px;
   font-family: 'Didact Gothic', sans-serif;
   padding: 2rem 0rem 2rem 0rem;
   font-size: 3rem;
-
 }
-.experience p
-{
+
+.experience p {
   font-family: 'Raleway', sans-serif;
   padding: 2rem 0rem 2rem 0rem;
   font-weight: 400;
   font-size: 1.5rem;
-
 }
-.experience img
-{
+
+.experience img {
   width: 10rem;
 }
 
 /*************************************************************************/
-
 /**********This is skill section********************/
-.skills
-{
-  padding-top: 2rem;
+.skills {
+  padding-top: 5rem;
   padding-left: 2rem;
-  padding-bottom: 2rem;
-  background-color:#ffe4e4;
+  background-color: #ffe4e4;
   text-align: center;
   font-family: 'Arimo', sans-serif;
+  padding-bottom: 0px;
+}
+.skills h3{
+  color: #e6a0a0;
+  font-size: 3rem;
 }
 div.polaroid {
   width: 25%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
   display: inline-block;
   margin: 2rem 2rem 2rem 2rem;
 }
 
-.polaroid img
-{
+.polaroid img {
   margin-top: 1rem;
   width: 10rem;
   height: 10rem;
 }
-.skill-name
-{
+
+.skill-name {
   text-align: center;
   padding: 10px 20px;
 }
-/**************************************************************************************************/
 
+/**************************************************************************************************/
 /*****
 this is footer section******/
-.footer
-{
+.footer {
   background-color: #be5683;
   text-align: center;
   padding: 5rem;
 }
+
 .btn {
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -131,7 +124,7 @@ this is footer section******/
   background: #83be56;
   padding: 0.625rem 1.25rem 0.625rem 1.25rem;
   text-decoration: none;
-  margin:2rem;
+  margin: 2rem;
 }
 
 .btn:hover {
@@ -139,21 +132,20 @@ this is footer section******/
   color: #fff;
   text-decoration: none;
   -webkit-box-shadow: 0rem 0.5rem 0.5rem #666666;
-  -moz-box-shadow:0rem 0.5rem 0.5rem #666666;
+  -moz-box-shadow: 0rem 0.5rem 0.5rem #666666;
   box-shadow: 0rem 0.5rem 0.5rem #666666;
 }
 
 /******************************************************************************************************/
 /*hr**/
-hr{
-  margin : 0rem;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom-width: 3rem;
-  border-color: black;
+hr {
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  border-color: #ffffe4;
+  border-top-width: 5px;
+  margin-top: 5rem;
+  margin-bottom: 0px;
+  width: 5%;
   border-style: dotted;
-  border-width: medium;
-  width: 2%;
-  align-self: center;
 }
